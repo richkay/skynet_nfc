@@ -1,0 +1,15 @@
+{
+  "name": "skynet-nfc",
+  "version": "0.6.0",
+  "description": "NFC plugin for skynet hub/gateway",
+  "keywords": [
+    "skynet-plugin"
+  ],
+  "repository": "git@github.com:virgilvox/skynet_nfc.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moheeb Zara",
+  "license": "MIT"
+}
