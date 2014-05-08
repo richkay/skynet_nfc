@@ -51,16 +51,16 @@ serialPort.on('data', function(data) {
    
 });
 
-/*  ARTIFACT
+
 
 Plugin.prototype.onMessage = function(message){
   var data = message.message || message.payload;
-  console.log(this.options.greetingPrefix + ', ' + message.fromUuid);
+  //console.log(this.options.greetingPrefix + ', ' + message.fromUuid);
   if(message.fromUuid){
-    this.messenger.send({devices: message.fromUuid, message: {greeting: this.options.greetingPrefix + ' back atcha: ' + data.text}});
+    this.messenger.send({devices: message.fromUuid, message: {greeting: this.options.nfcid + ' back atcha: ' + data.text}});
   }
 
-}; */
+}; 
 
 Plugin.prototype.destroy = function(){
   //clean up
